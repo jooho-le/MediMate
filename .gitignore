@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# MacOS system files
+.DS_Store
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Logs / outputs
+*.log
+*.tmp
+
+# Compiled proto
+*_pb2.py
+*_pb2_grpc.py
+
+# Scratch
+scratch.py
+
+result/
+secrets/

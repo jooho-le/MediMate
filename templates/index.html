@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPT 요약기</title>
+</head>
+<body>
+  <h1>🗣️ 음성 인식 결과 요약</h1>
+  <form method="POST" action="/summarize">
+    <textarea name="text" rows="8" cols="80" placeholder="텍스트 입력..."></textarea><br>
+    <button type="submit">GPT 요약</button>
+  </form>
+
+  {% if summary %}
+    <h2>📌 요약 결과</h2>
+    <div style="border:1px solid gray; padding:10px;">
+      {{ summary }}
+    </div>
+  {% endif %}
+</body>
+</html>
